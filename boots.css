@@ -1,0 +1,59 @@
+.background{
+    background-image: url('https://images.hindustantimes.com/img/2023/01/10/1600x900/While-the-past-year-was-about-revenge-and-revival-_1673351689949.jpg');
+    height: 800px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.travel_modal{
+    display: flex;
+    justify-content: center;
+}
+
+.travel_quotes{
+    padding-left: 50px;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Source+Sans+Pro:wght@200;400&display=swap');
+
+
+.travel_quotes p{
+    right: 0;
+    font-size: 50px;
+    font-weight:bold;
+    color: aliceblue;
+    
+}
+
+.travel_quotes span{
+    font-family: 'Babylonica', cursive;
+    }
+
+section{
+    background-color: white;
+}
+
+.honeymoon{
+    margin:100px;
+    text-align: center;
+}
+
+.card:hover{
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.1);
+}
+
+.card img{
+    padding: 10px;
+}
+
+.card{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+.btn{
+    align-items: center;
+}
