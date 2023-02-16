@@ -41,6 +41,7 @@ section{
 }
 
 .honeymoon h1{
+    text-align: center;
     margin-top: 50px;
     padding-top: 50px;
 }
@@ -80,3 +81,4 @@ section{
 .carousel-item img{
     height: 400px;
 }
+
