@@ -99,7 +99,7 @@ section{
 
 .tours{
     text-align: center;
-    padding-bottom: 30px;
+
 }
 
 .tours h1{
@@ -117,11 +117,21 @@ section{
 .image__overlay{
     position: absolute;
     top: 0;
-    left: 0;
-    opacity: 0;
-    width: 100%;
+    left: 5%;
+    width: 90%;
+    top: 1rem;
     height: 100%;
-    padding-top: 20px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: #ffffff;
+    font-family: 'Quicksand', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25s;
+    border-radius: 1rem;
 }
 
 
@@ -175,4 +185,61 @@ section{
 .image__description P {
     color: blue;
     font-weight: BOLD;
+}
+
+.premium{
+    text-align: center;
+}
+
+.more img{
+    border-radius: 50%;
+}
+
+.more{
+    border-radius: 20px;
+}
+
+.customer{
+    text-align: center;
+}
+
+.creview{
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    background-color: beige;
+    border-radius: 10px;
+}
+
+.creview img{
+    width: 100%;
+    height: 150px;
+    border-radius: 10px;
+    padding: 2px;
+}
+
+.bott{
+    background-color: rgb(55, 3, 74);
+}
+
+.icons{
+    
+}
+
+.icons i{
+    padding: 15px;
+    color: #ffffff;
+}
+
+.explore{
+    width: 200px;
+    height: 250px;
+}
+
+.explore img{
+    width: 100%;
+    border-radius: 20px;
+}
+footer{
+    text-align: center;
 }
