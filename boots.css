@@ -92,6 +92,10 @@ section{
     left: 1;
 }
 
+.video{
+    width: 500px;
+}
+
 
 .video iframe{
     width: 100%;
